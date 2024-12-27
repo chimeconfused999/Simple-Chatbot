@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import openai from 'openai';
 import dotenv from 'dotenv';
 
-dotenv.config({ path: 'C:/Users/teapz/OneDrive/Desktop/Simple Chatbot/secret.env' });
+dotenv.config({ path: '' });
 
 console.log('API Key:', process.env.OPENAI_KEY);
 
